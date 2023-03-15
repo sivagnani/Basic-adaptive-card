@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/adaptive-card-extension-manifest.schema.json",
+  "id": "07fadb9e-5595-4d3c-99de-1c07452c18ca",
+  "alias": "BasicCardAdaptiveCardExtension",
+  "componentType": "AdaptiveCardExtension",
+
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["Dashboard"],
+  "preconfiguredEntries": [{
+    "groupId": "bd067b1e-3ad5-4d5d-a5fe-505f07d7f59c",
+    "group": { "default": "Dashboard" },
+    "title": { "default": "basic_card" },
+    "description": { "default": "basic_card description" },
+    "officeFabricIconFontName": "SharePointLogo",
+    "properties": {
+      "title": "Address Book"
+    },
+    "cardSize": "Medium"
+  }]
+}

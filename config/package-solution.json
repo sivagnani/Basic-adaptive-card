@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "basic-adaptive-card-client-side-solution",
+    "id": "94189d25-a558-41ab-8588-dacce840ef28",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "basic-adaptive-card description"
+      },
+      "longDescription": {
+        "default": "basic-adaptive-card description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "basic-adaptive-card Feature",
+        "description": "The feature that activates elements of the basic-adaptive-card solution.",
+        "id": "a166cf31-f674-4241-b39c-13a56e0537bc",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/basic-adaptive-card.sppkg"
+  }
+}
